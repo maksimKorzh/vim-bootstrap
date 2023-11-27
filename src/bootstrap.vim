@@ -1,10 +1,12 @@
-" Custom Bootstrap 5 snippets 
+" Load Bootstrap 5 snippets 
 let s:snippets = json_decode(join(readfile('snippets.json'), "\n"))
 
 " Insert Bootstrap code snippet
 function! s:bootstrap(command)
-  " Insert new line
+   " Calculate indentation
   let indentation = indent('.') + 1
+
+ " Insert new line
   if line('$') > 1 || getline(1) != ''
     call append(line('.'), "")
     call cursor(line('.')+1, 1)
@@ -28,4 +30,5 @@ endfor
 " Help message
 echo "Type :BsIndex to insert Bootstrap starter template"
 
+" This command helps to enclose HTML code block into quotes
 " '<,'>s/"/\\"/g|'<,'>s/$/",/|'<,'>s/^/    "/
