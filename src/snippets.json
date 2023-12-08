@@ -20,7 +20,6 @@
     "            integrity=\"sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL\"",
     "            crossorigin=\"anonymous\">",
     "    </script>",
-    "    <script src=\"https://code.jquery.com/jquery-3.6.4.min.js\"></script>",
     "  </body>",
     "</html>"
   ],
@@ -163,13 +162,13 @@
   "BsGrid": [
     "<div class=\"container px-0\" style=\"padding-top: 24%;\">",
     "  <div class=\"row m-0\">",
-    "    <div class=\"col-md-4 p-0 pe-1 pb-2\">",
+    "    <div class=\"col-md-4 p-0 pe-1 pb-4\">",
     "      <!-- Place your | :BsCard | here... -->",
     "    </div>",
-    "    <div class=\"col-md-4 p-0 px-1 pb-2\">",
+    "    <div class=\"col-md-4 p-0 px-1 pb-4\">",
     "      <!-- Place your | :BsCard | here... -->",
     "    </div>",
-    "    <div class=\"col-md-4 p-0 ps-1 pb-2\">",
+    "    <div class=\"col-md-4 p-0 ps-1 pb-4\">",
     "      <!-- Place your | :BsCard | here... -->",
     "    </div>",
     "  </div>",
@@ -181,6 +180,7 @@
     "    <h5>Card header</h5>",
     "  </div>",
     "  <div class=\"card-body\">",
+    "    <!-- Place your | :BsYouTubeVideo | here... -->",
     "    <div class=\"card-text\">",
     "      Card body",
     "    </div>",
@@ -207,6 +207,9 @@
     "    </div>",
     "  </div>",
     "</footer>"
+  ],
+  "JQueryCdn": [
+    "<script src=\"https://code.jquery.com/jquery-3.6.4.min.js\"></script>"
   ],
   "BsQuoteNewHTMLBlock": [
     "'<,'>s/\"/\\\"/g|'<,'>s/$/\",/|'<,'>s/^/    \"/|noh"
