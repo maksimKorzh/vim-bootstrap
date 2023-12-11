@@ -208,8 +208,22 @@
     "  </div>",
     "</footer>"
   ],
-  "JQueryCdn": [
+  "JqueryCdn": [
     "<script src=\"https://code.jquery.com/jquery-3.6.4.min.js\"></script>"
+  ],
+  "JqReady": [
+    "$(document).ready(function() {",
+    "",
+    "});"
+  ],
+  "JqAjax": [
+    "$.ajax({",
+    "  url: \"\",",
+    "  type: \"\",",
+    "  cache: false,",
+    "  success: function(data) { console.log(data); },",
+    "  error: function(error) { console.error(error); }",
+    "});"
   ],
   "BsQuoteNewHTMLBlock": [
     "'<,'>s/\"/\\\"/g|'<,'>s/$/\",/|'<,'>s/^/    \"/|noh"
